@@ -13,7 +13,7 @@ namespace TelegramBot
         private static readonly HttpClient client = new HttpClient();
         static void Main()
         {
-            //Lembre de remover a apikey ao publicar no github;
+            //Coloque sua Token da API aqui
             botClient = new TelegramBotClient("");
             botClient.OnMessage += Bot_OnMessage;
             botClient.StartReceiving();
