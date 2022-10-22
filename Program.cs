@@ -15,7 +15,7 @@ namespace TelegramBot
         static void Main()
         {
             //Coloque sua Token da API aqui
-            _botClient = new TelegramBotClient("1795299080:AAGtU0RdJX1Jgh-LetpbuQK12B7xZ95XF-c");
+            _botClient = new TelegramBotClient("");
             _botClient.OnMessage += Bot_OnMessage;
             _botClient.StartReceiving();
 
@@ -70,14 +70,15 @@ namespace TelegramBot
 
             var responseResult = await response.Content.ReadAsStringAsync();
 
-            var json = JsonSerializer.Serialize(responseResult);
-
-            var jsonCep = JsonSerializer.Deserialize<Cep>(json);
+            var jsonCep = JsonSerializer.Deserialize<PostalCode>(responseResult, new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            });
 
             if (jsonCep != null)
                     await _botClient.SendTextMessageAsync(
                         chatId: e.Message.Chat,
-                        text: ""
+                        text: jsonCep.GetFullAddress()
                     );
         }
     }

@@ -1,59 +1,61 @@
 using System.ComponentModel;
 
+namespace TelegramBot;
+
 public enum States
 {
-            [Description("Acre")]
-            AC,
-            [Description("Alagoas")]
-            AL,
-            [Description("Amapá")]
-            AP,
-            [Description("Amazonas")]
-            AM,
-            [Description("Bahia")]
-            BA,
-            [Description("Ceará")]
-            CE,
-            [Description("Distrito Federal")]
-            DF,
-            [Description("Espirito Santo")]
-            ES,
-            [Description("GO")]
-            Goiás,
-            [Description("Maranhão")]
-            MA,
-            [Description("Mato Grosso")]
-            MT,
-            [Description("Mato Grosso do Sul")]
-            MS,
-            [Description("Minas Gerais")]
-            MG,
-            [Description("Pará")]
-            PA,
-            [Description("Paraiba")]
-            PB,
-            [Description("Paraná")]
-            PR,
-            [Description("Pernambuco")]
-            PE,
-            [Description("Piauí")]
-            PI,
-            [Description("Rio de Janeiro")]
-            RJ,
-            [Description("Rio Grande do Norte")]
-            RN,
-            [Description("Rio Grande do Sul")]
-            RS,
-            [Description("Rondônia")]
-            RO,
-            [Description("Roraima")]
-            RR,
-            [Description("Santa Catarina")]
-            SC,
-            [Description("São Paulo")]
-            SP,
-            [Description("Sergipe")]
-            SE,
-            [Description("Tocantis")]
-            TO
+    [Description("AC")]
+    ACRE,
+    [Description("AL")]
+    ALAGOAS,
+    [Description("AP")]
+    AMAPÁ,
+    [Description("AM")]
+    AMAZONAS,
+    [Description("BA")]
+    BAHIA,
+    [Description("CE")]
+    CEARÁ,
+    [Description("DF")]
+    DISTRITO_FEDERAL,
+    [Description("ES")]
+    ESPIRITO_SANTO,
+    [Description("GO")]
+    GOIÁS,
+    [Description("MA")]
+    MARANHÃO,
+    [Description("MT")]
+    MATO_GROSSO,
+    [Description("MS")]
+    MATO_GROSSO_DO_SUL,
+    [Description("MG")]
+    MINAS_GERAIS,
+    [Description("PA")]
+    PARÁ,
+    [Description("PB")]
+    PARAIBA,
+    [Description("PR")]
+    PARANÁ,
+    [Description("PE")]
+    PERNAMBUCO,
+    [Description("PI")]
+    PIAUÍ,
+    [Description("RJ")]
+    RIO_DE_JANEIRO,
+    [Description("RN")]
+    RIO_GRANDE_DO_NORTE,
+    [Description("RS")]
+    RIO_GRANDE_DO_SUL,
+    [Description("RO")]
+    RONDÔNIA,
+    [Description("RR")]
+    RORAIMA,
+    [Description("SC")]
+    SANTA_CATARINA,
+    [Description("SP")]
+    SÃO_PAULO,
+    [Description("SE")]
+    SERGIPE,
+    [Description("TO")]
+    TOCANTINS
 }
