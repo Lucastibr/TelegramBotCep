@@ -5,15 +5,15 @@
 ![Alt text](image2.png  "Title")
 ![Alt text](print.png  "Bot")
 
-# Portugu�s-BR
+# Português-BR
 
 ## Bot para o Telegram de pesquisa de Cep no Brasil
 
 Bot para o telegram criado com C#/ .Net 6.0
 
-## Implementa��es Futuras
+## Implementações Futuras
 
-- Integra��o com alguma API de Mapas para ser gerado o mapa quando for buscado o CEP.
+- Integração com alguma API de Mapas para ser gerado o mapa quando for buscado o CEP.
 
 # English
 
