@@ -1,18 +1,19 @@
-# Português-BR
+## Pesquise pelo bot no Telegram @CepBrBot
+
+## Search for the bot on Telegram @CepBrBot
+
+![Alt text](image2.png  "Title")
+![Alt text](print.png  "Bot")
+
+# Portuguï¿½s-BR
 
 ## Bot para o Telegram de pesquisa de Cep no Brasil
 
 Bot para o telegram criado com C#/ .Net 6.0
 
-## Pesquise pelo bot no Telegram @CepBrBot
+## Implementaï¿½ï¿½es Futuras
 
-![Alt text](image2.png  "Title")
-![Alt text](print.png  "Bot")
-
-
-## Implementações Futuras
-
-- Integração com alguma API de Mapas para ser gerado o mapa quando for buscado o CEP.
+- Integraï¿½ï¿½o com alguma API de Mapas para ser gerado o mapa quando for buscado o CEP.
 
 # English
 
