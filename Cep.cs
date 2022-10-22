@@ -1,13 +1,12 @@
+using System.Text.Json.Serialization;
+
 namespace TelegramBot
 {
     public class Cep
     {
+        [JsonPropertyName("bairro")]
         public string Bairro {get; set;}
 
-        public string Cidade {get; set;}
-
-        public string Logradouro {get; set;}
-
-        public string Estado {get; set;}
+      
     }
 }

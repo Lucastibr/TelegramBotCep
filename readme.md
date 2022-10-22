@@ -1,7 +1,6 @@
-# Bot para o Telegram de pesquisa de Cep
+# Bot para o Telegram de pesquisa de Cep no Brasil
 
-    Bot para o telegram criado com C#/ .Net 5.0
-# Ainda em estágio inicial, somente início do desenvolvimento, ocorrerão bugs, erros e crashes.
+Bot para o telegram criado com C#/ .Net 6.0
 
 # Pesquise pelo bot no Telegram @CepBrBot
 
