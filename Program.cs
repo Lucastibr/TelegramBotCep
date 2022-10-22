@@ -14,7 +14,7 @@ namespace TelegramBot
         private static readonly HttpClient Client = new();
         static void Main()
         {
-            //Coloque sua Token da API aqui
+            //Coloque sua Token da API do Telegram aqui aqui
             _botClient = new TelegramBotClient("");
             _botClient.OnMessage += Bot_OnMessage;
             _botClient.StartReceiving();
