@@ -2,8 +2,7 @@
 
 ## Search for the bot on Telegram @CepBrBot
 
-![Alt text](image2.png  "Title")
-![Alt text](print.png  "Bot")
+![Alt text](initial.png  "Bot")
 
 # Português-BR
 
